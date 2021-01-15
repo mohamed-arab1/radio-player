@@ -1,0 +1,178 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    /* background-color:  rgb(55, 55, 209); */
+    background-image: url("music_image.jpg");
+    background-size: 100% 900px;
+    /* background-repeat: no-repeat; */
+}
+    #main1{
+    width: 360px;
+    height: 300px;
+     /* background-color: rgb(55, 55, 209); */
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    text-align: center;
+}
+#image1{
+    width: 200px;
+    height: 200px;
+    margin-top: 20px;
+    border-radius: 50%;
+}
+#main1 h1,p{
+    color: white;
+    margin-top: 10px;
+    padding-bottom: 10px;
+}
+#div1{
+    width: 360px;
+    /* background-color: tomato; */
+}
+#image_buttons{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+#image_buttons img{
+    width: 45px;
+    height: 45px;
+    margin-top: 10px;
+    padding: 0px 15px;
+    cursor: pointer;
+}
+#volume_leavel{
+    text-align:center;
+    margin-top: 20px;
+}
+#volume_leavel h2{
+    margin: 20px 0px;
+}
+#volume_leavel input{
+    width: 100%;
+    
+}
+input[type="range" i] {
+        -webkit-appearance: none;
+        background-color: white;
+        height: 3px;
+        margin: 0%;
+    }
+    input[type="range" ] ::-webkit-slider-thumb {
+        -webkit-appearance: none;
+        background: tomato;
+        height: 25px;
+        width: 25px;
+    }
+   #button_images{
+       margin-top: 35px;
+       width: 100%;
+       /* margin: 0px 20px; */
+
+   }
+   #button_images1{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    margin: 20px 5px 0px 0px;
+    background-image: url("music_image1.jpg");
+    border: 0px;
+   }
+   #button_images2{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    margin: 20px 5px 0px 0px;
+    background-image: url("music_image2.jpg");
+    border: 0px;
+   }
+   #button_images3{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    margin: 20px 5px 0px 0px;
+    background-image: url("music_image3.jpg");
+    border: 0px;
+   }
+   #button_images4{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    margin: 20px 5px 0px 0px;
+    background-image: url("music_image4.jpg");
+    border: 0px;
+   }
+   #button_image{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    margin: 20px 5px 0px 0px;
+    background-image: url("music_image.jpg");
+    border: 0px;
+   }
+   #button_image_q{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    margin: 20px 5px 0px 0px;
+    background-image: url("image1.jpg");
+    border: 0px;
+   }
+   #button_colors{
+    margin-top: 35px;
+    width: 100%;
+    margin: 0px 20px;
+
+}
+#button_color1{
+ width: 30px;
+ height: 30px;
+ border-radius: 50%;
+ margin: 20px 5px 0px 0px;
+ background-image:linear-gradient(to left,rgb(94, 255, 0),rgb(0, 255, 60),rgb(12, 79, 90));
+ border: 0px;
+}
+#button_color2{
+ width: 30px;
+ height: 30px;
+ border-radius: 50%;
+ margin: 20px 5px 0px 0px;
+ background-image:linear-gradient(to left,rgb(255, 0, 0),rgb(255, 0, 64),rgb(255, 0, 242));
+ border: 0px;
+}
+#button_color3{
+ width: 30px;
+ height: 30px;
+ border-radius: 50%;
+ margin: 20px 5px 0px 0px;
+ background-image:linear-gradient(to left,rgb(195, 0, 255),rgb(0, 76, 255),rgb(0, 242, 255));
+ border: 0px;
+}
+#button_color4{
+ width: 30px;
+ height: 30px;
+ border-radius: 50%;
+ margin: 20px 5px 0px 0px;
+ background-image:linear-gradient(to left,rgb(0, 255, 187),rgb(0, 255, 21),rgb(149, 255, 0));
+ border: 0px;
+}
+#button_color5{
+ width: 30px;
+ height: 30px;
+ border-radius: 50%;
+ margin: 20px 5px 0px 0px;
+ background-image:linear-gradient(to left,rgb(255, 230, 0),rgb(255, 94, 0),rgb(255, 0, 0));
+ border: 0px;
+}
+#button_color6{
+ width: 30px;
+ height: 30px;
+ border-radius: 50%;
+ margin: 20px 5px 0px 0px;
+ background-image:linear-gradient(to left,rgb(215, 235, 236),rgb(45, 41, 41),rgb(10, 10, 10));
+ border: 0px;
+}
+  
